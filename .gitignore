@@ -1,0 +1,136 @@
+```gitignore
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# SQLite / Database
+# =========================
+*.sqlite3
+*.db
+*.sqlite
+data/*.sqlite3
+data/*.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# Debug / Reports
+# =========================
+data/debug/
+data/reports/
+
+# =========================
+# Playwright
+# =========================
+playwright-report/
+test-results/
+.browser-cache/
+
+# =========================
+# VSCode
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# =========================
+# JetBrains
+# =========================
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Node (caso adicione frontend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build Artifacts
+# =========================
+coverage/
+dist/
+.cache/
+
+# =========================
+# Secrets
+# =========================
+secrets.json
+credentials.json
+token.json
+*.pem
+*.key
+
+# =========================
+# Local Configs
+# =========================
+config.local.py
+local_settings.py
+```
